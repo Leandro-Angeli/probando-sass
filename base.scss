@@ -1,0 +1,16 @@
+@import 'reset';
+@import 'variables';
+@import 'header';
+@import 'footer';
+
+
+body{background-color: var(--background);
+
+
+    @media (max-width:$landscape){background-color: antiquewhite;
+
+     }
+     @media(max-width:$mobile){background-color:black;
+
+      }
+ }
